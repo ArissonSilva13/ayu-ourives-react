@@ -1,0 +1,27 @@
+.footer-container {
+  /* Usando a cor de texto principal (cinza escuro) como fundo do rodapé */
+  background-color: var(--cor-texto); 
+  /* Usando a cor de fundo principal (cinza claro) como cor do texto do rodapé */
+  color: var(--cor-fundo); 
+  text-align: center;
+  padding: 40px 20px;
+  margin-top: 60px; /* Um espaço para separar o rodapé do conteúdo acima */
+}
+
+.footer-container p {
+  margin: 0;
+  padding: 5px 0;
+  color: #a0a0a0; /* Um cinza um pouco mais escuro para o texto não gritar */
+}
+
+.footer-container a {
+  color: #FFFFFF; /* Links em branco para se destacarem no fundo escuro */
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-container a:hover {
+  /* Ao passar o mouse, o link fica com a cor de destaque (cinza escuro), que na prática o torna sutil */
+  color: #888888;
+}

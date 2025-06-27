@@ -1,0 +1,72 @@
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px; 
+  padding: 80px 5%;
+  min-height: 80vh; 
+  background-color: #FFFFFF; /* Fundo branco para um look bem limpo */
+}
+
+.hero-text {
+  max-width: 450px;
+  text-align: left; 
+}
+
+.hero-text h1 {
+  font-size: 3.5rem; 
+  font-weight: 900; 
+  line-height: 1.15;
+  letter-spacing: -1px; 
+  margin-bottom: 30px;
+  color: var(--cor-texto);
+  text-transform: uppercase; /* Deixa todo o texto em maiúsculas */
+}
+
+.hero-text p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 40px;
+  color: #555555; 
+}
+
+.cta-button {
+  background-color: var(--cor-destaque); 
+  color: #FFFFFF;
+  padding: 16px 32px; 
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.cta-button:hover {
+  background-color: #333333;
+  transform: translateY(-2px);
+}
+
+.hero-image-container {
+  display: block; 
+  flex-shrink: 0; /* Impede que a imagem encolha demais */
+}
+
+.hero-image-container img {
+  width: 500px; /* Largura fixa para a imagem */
+  max-width: 50vw; /* Garante que não fique grande demais em telas menores */
+  height: auto;
+  object-fit: cover;
+  border-radius: 0; /* Removemos as bordas arredondadas para um visual mais reto */
+  box-shadow: none; /* Removemos a sombra para um look mais flat e integrado */
+}
+
+/* Regra para telas de celular: empilhar as colunas */
+@media (max-width: 900px) {
+  .hero-container {
+    flex-direction: column-reverse; /* Imagem primeiro, depois o texto */
+    text-align: center;
+  }
+  .hero-text {
+    text-align: center;
+    margin-top: 40px;
+  }
+}

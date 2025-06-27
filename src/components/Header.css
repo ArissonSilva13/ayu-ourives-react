@@ -1,0 +1,35 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5%;
+  background-color: #f2e9e9; /* Fundo branco para um contraste limpo com o corpo cinza */
+  border-bottom: 1px solid #e0e0e0; /* Linha divisória sutil */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  /* A linha principal que aplica a nova fonte */
+  font-family: 'Special Elite', cursive; 
+
+  /* Ajustes para a nova fonte ficar mais bonita */
+  font-size: 1.7rem; /* Aumentei um pouco para compensar o tamanho visual da fonte */
+  font-weight: 400;  /* Esta fonte só tem o peso 'normal' (400), então ajustamos */
+  color: var(--cor-texto);
+}
+
+.header-button {
+  background-color: var(--cor-destaque); /* Usa o cinza escuro que definimos */
+  color: #FFFFFF; /* IMPORTANTE: Texto branco para ter contraste com o botão escuro */
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+
+.header-button:hover {
+  background-color: #333333; /* Um cinza ainda mais escuro no hover */
+  transform: translateY(-2px); /* Efeito sutil de elevação */
+}

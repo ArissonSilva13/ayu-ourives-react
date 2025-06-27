@@ -1,0 +1,26 @@
+/* Definindo as variáveis de cor para o TEMA MONOCROMÁTICO (tons de cinza) */
+:root {
+  --cor-fundo: #f4f4f4;                 /* Cinza bem claro (fundo principal) */
+  --cor-texto: #111111;                 /* Preto/Cinza escuro (texto principal) */
+  --cor-destaque: #555555;               /* Cinza escuro para destaque (botões, links) */
+  --cor-fundo-card: #FFFFFF;           /* Branco puro para os cards */
+  --cor-borda-glow: rgba(0, 0, 0, 0.1);  /* Sombra/borda suave (substitui o brilho verde) */
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Outfit', 'Montserrat', sans-serif;
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+  -webkit-font-smoothing: antialiased;
+}
+
