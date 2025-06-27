@@ -14,11 +14,13 @@ function ArtistInfo() {
           <h2>Sobre a Artista</h2>
           <p className="artist-name">Ana Elisa Sonda</p>
           <p className="artist-bio">
-            A artista Ana Elisa é uma maravilhosa,talentosa e delicada ourives. Ela construiu uma carreira sólida em grandes empresas ligadas à moda e publicidade, onde desenvolveu ainda mais seu olhar sensível e criativo. Elegante e criativa por natureza, Ana une sua paixão pela arte com uma elegância discreta e uma visão detalhista que torna cada peça sua absolutamente única.
+             A artista Ana Elisa é uma ourives talentosa, reconhecida por sua delicadeza e excelência técnica. Com uma carreira sólida construída no universo da moda, ela desenvolveu um olhar ainda mais apurado e criativo, unindo sensibilidade estética e refinamento.
 
-Sua relação com a ourivesaria é profunda — um encontro entre técnica refinada e sentimento. Neste curso, ela compartilha não apenas anos de experiência, mas também o amor pelo que faz, o cuidado com os detalhes e a emoção que transforma metal e pedra em expressão.
+Inspiradora por essência, Ana transforma sua paixão pela arte em joias únicas, guiada por uma elegância discreta e um olhar detalhista que imprime alma em cada criação. Sua relação com a ourivesaria vai além da técnica — é um ofício vivido com emoção, precisão e significado.
 
-Apaixonada pela família, pelo seu ofício e pela beleza sutil das pequenas coisas, Ana convida você a mergulhar em um universo onde cada criação carrega significado. Uma artista com classe, alma e um talento que encanta em silêncio.
+Neste curso, Ana compartilha não apenas sua ampla experiência, mas também o amor pelo que faz, o cuidado com os detalhes e a emoção que transforma metais e pedras em verdadeiras formas de expressão.
+
+Apaixonada pela família, pela arte e pela beleza sutil das pequenas coisas, Ana convida você a mergulhar em seu universo criativo — onde cada peça conta uma história e carrega um propósito. Uma artista com alma, sensibilidade e um talento que encanta com sutileza.
           </p>
         </div>
       </div>
